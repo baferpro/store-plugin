@@ -415,6 +415,8 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max)
 	MarkNativeAsOptional("ZR_SelectClientClass");
 	MarkNativeAsOptional("HideTrails_ShouldHide");
 #endif
+	RegPluginLibrary("store");
+
 	return APLRes_Success;
 } 
 
