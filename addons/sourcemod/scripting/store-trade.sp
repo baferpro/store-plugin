@@ -19,6 +19,8 @@
 #include <sourcemod>
 #include <sdktools>
 
+#include "store/globals.sp"
+
 #undef REQUIRE_EXTENSIONS
 #undef REQUIRE_PLUGIN
 #include <store>
